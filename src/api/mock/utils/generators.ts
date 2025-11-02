@@ -15,6 +15,12 @@ export const generateMockData = {
   // 生成随机名称
   name: (prefix = '名称'): string => `${prefix}_${Math.floor(Math.random() * 1000)}`,
 
+  // 生成随机描述
+  description: (prefix = '描述'): string => `${prefix}_${Math.floor(Math.random() * 1000)}`,
+
+  // 生成随机信息
+  message: (prefix = '信息'): string => `${prefix}_${Math.floor(Math.random() * 1000)}`,
+
   // 生成随机代码
   code: (prefix = 'CODE'): string => `${prefix}_${Math.floor(Math.random() * 1000)}`,
 

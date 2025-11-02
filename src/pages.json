@@ -19,6 +19,24 @@
       }
     },
     {
+      "path": "pages/agent/index",
+      "type": "page",
+      "name": "agent",
+      "layout": "default",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/ai/index",
+      "type": "page",
+      "name": "ai",
+      "layout": "default",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
       "path": "pages/ci/index",
       "type": "page",
       "name": "ci",

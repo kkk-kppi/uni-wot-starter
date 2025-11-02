@@ -15,6 +15,8 @@ import commonMocks from './modules/common'
 import petMocks from './modules/pet'
 import storeMocks from './modules/store'
 import userMocks from './modules/user'
+import aiMocks from './modules/ai'
+import agentMocks from './modules/agent'
 
 // 合并所有mock定义
 const allMocks = [
@@ -22,6 +24,8 @@ const allMocks = [
   petMocks,
   storeMocks,
   userMocks,
+  aiMocks,
+  agentMocks,
 ]
 
 // 创建mock适配器

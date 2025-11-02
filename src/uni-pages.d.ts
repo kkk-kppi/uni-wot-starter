@@ -6,6 +6,8 @@
 interface NavigateToOptions {
   url: "/pages/index/index" |
        "/pages/about/index" |
+       "/pages/agent/index" |
+       "/pages/ai/index" |
        "/pages/ci/index" |
        "/pages/create-uni/index" |
        "/pages/feedback/index" |
