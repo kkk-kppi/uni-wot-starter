@@ -68,5 +68,14 @@ export default async () => {
       // see unocss.config.ts for config
       UnoCSS(),
     ],
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `
+            @import "@/uni.scss";
+          `,
+        },
+      },
+    },
   })
 }
